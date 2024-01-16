@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" class="result">
+
+        <div class="first-row">
+            <button name="num7" value="7" class="global" onclick="fun()">7</button>
+            <button name="num8" value="8" class="global">8</button>
+            <button name="num9" value="9" class="global">9</button>
+            <button name="div" value="/" class="global">/</button>
+        </div>
+        <div class="second-row">
+            <button name="num4" value="4" class="global">4</button>
+            <button name="num5" value="5" class="global">5</button>
+            <button name="num6" value="6" class="global">6</button>
+            <button name="mul" value="*" class="global">*</button>
+        </div>
+        <div class="third-row">
+            <button name="num1" value="1" class="global">1</button>
+            <button name="num2" value="2" class="global">2</button>
+            <button name="num3" value="3" class="global">3</button>
+            <button name="sub" value="-" class="global">-</button>
+        </div>
+        <div class="fourth-row">
+            <button name="" value="0" class=" zero">0</button>
+            <button name="" value="." class=" global">.</button>
+            <button name="" value="+" class="global">+</button>
+        </div>
+        <div class="fifth-row">
+            <button name="" value="Del" class=" red zero white-text top-margin">
+                <img src="left_del.png" alt="left_del" width="16px">
+            </button>
+            <input type="button" name="" value="=" class=" green white-text zero top-margin">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
