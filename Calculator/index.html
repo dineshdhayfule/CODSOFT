@@ -2,44 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <input type="text" class="result">
-
+    <div class="cal_layout">
+        <div class="result" id="res">
+            <div id="history">
+            </div>
+            <div id="output">
+                0
+            </div>
+        </div>
         <div class="first-row">
-            <button name="num7" value="7" class="global" onclick="fun()">7</button>
-            <button name="num8" value="8" class="global">8</button>
-            <button name="num9" value="9" class="global">9</button>
-            <button name="div" value="/" class="global">/</button>
+            <button name="num7" value="7" class="global" onclick="input_value(value)">7</button>
+            <button name="num8" value="8" class="global" onclick="input_value(value)">8</button>
+            <button name="num9" value="9" class="global" onclick="input_value(value)">9</button>
+            <button name="div" value="/" class="global opcolor" onclick="input_value(value)">/</button>
         </div>
         <div class="second-row">
-            <button name="num4" value="4" class="global">4</button>
-            <button name="num5" value="5" class="global">5</button>
-            <button name="num6" value="6" class="global">6</button>
-            <button name="mul" value="*" class="global">*</button>
+            <button name="num4" value="4" class="global" onclick="input_value(value)">4</button>
+            <button name="num5" value="5" class="global" onclick="input_value(value)">5</button>
+            <button name="num6" value="6" class="global" onclick="input_value(value)">6</button>
+            <button name="mul" value="*" class="global opcolor" onclick="input_value(value)">*</button>
         </div>
         <div class="third-row">
-            <button name="num1" value="1" class="global">1</button>
-            <button name="num2" value="2" class="global">2</button>
-            <button name="num3" value="3" class="global">3</button>
-            <button name="sub" value="-" class="global">-</button>
+            <button name="num1" value="1" class="global" onclick="input_value(value)">1</button>
+            <button name="num2" value="2" class="global" onclick="input_value(value)">2</button>
+            <button name="num3" value="3" class="global" onclick="input_value(value)">3</button>
+            <button name="sub" value="-" class="global opcolor" onclick="input_value(value)">-</button>
         </div>
         <div class="fourth-row">
-            <button name="" value="0" class=" zero">0</button>
-            <button name="" value="." class=" global">.</button>
-            <button name="" value="+" class="global">+</button>
+            <button name="" value="0" class=" global" onclick="input_value(value)">0</button>
+            <button name="" value="00" class=" global" onclick="input_value(value)">00</button>
+            <button name="" value="." class=" global" onclick="input_value(value)">.</button>
+            <button name="" value="+" class="global opcolor" onclick="input_value(value)">+</button>
         </div>
         <div class="fifth-row">
-            <button name="" value="Del" class=" red zero white-text top-margin">
-                <img src="left_del.png" alt="left_del" width="16px">
-            </button>
-            <input type="button" name="" value="=" class=" green white-text zero top-margin">
+            <button name="clearAll"  class="global " onclick="clr()">CA</button>
+            <button name="" value="Del" onclick="backspace()" class="Del global">
+                <img src="left_del.png"  alt="left_del" width="16px"></button>
+            <button name="op" value="=" onclick="result()" class="white-text last">=</button>
         </div>
     </div>
     <script src="script.js"></script>
