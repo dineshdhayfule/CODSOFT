@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
