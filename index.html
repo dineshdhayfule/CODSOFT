@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODSOFT</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+        div{
+            padding: 10px;
+            border:  solid rgb(42, 41, 44);
+            margin: 10px;
+        }
+        a{
+            color:black;
+            font-size: 3rem;
+        }
+        #d1{
+            /* margin-top: 50px; */
+        }
+        .cal_layout {
+        position: relative;
+        margin: auto;
+        margin-top: 110px;
+        width: fit-content;
+        height: fit-content;
+        /* padding: 5px; */
+        border-radius: 14px;
+        -webkit-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
+        -moz-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
+        /* background-color: #fff; */
+        background-color: #dbd8d8;
+        z-index: 111;
+        overflow: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 40px 40px 60px rgb(39, 39, 42), -20px -20px 60px rgb(39, 39, 42);
+        }
+
+        .cal_layout:hover{
+        box-shadow: 20px 20px 20px black, -20px -20px 20px black;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="cal_layout">
+     <div id="d1">
+         <a href="Calculator/index.html">Calculator</a>
+     </div>
+     <div>
+         <a href="Landing Page/index.html">Landing Page</a>
+     </div>
+     <div>
+         <a href="Portfolio/index.html">Portfolio</a>
+     </div>
+   </div>
+
+</body>
+</html>
