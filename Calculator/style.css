@@ -21,6 +21,7 @@ body {
 
 
 .cal_layout {
+    border: 2px solid rgb(136, 2, 254);
     position: relative;
     margin: auto;
     margin-top: 110px;
@@ -28,7 +29,7 @@ body {
     height: 480px;
     max-width: 500px;
     max-height: 540px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 14px;
     -webkit-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
     -moz-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
@@ -40,6 +41,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 40px 40px 60px rgb(39, 39, 42), -20px -20px 60px rgb(39, 39, 42);
+}
+
+.cal_layout:hover {
     box-shadow: 20px 20px 20px black, -20px -20px 20px black;
 
 }
@@ -134,7 +139,7 @@ body {
 }
 
 
-    .white-text {
-        color: #000000;
-        background-color: #6ab5ef;
-    }
+.white-text {
+    color: #000000;
+    background-color: #6ab5ef;
+}
