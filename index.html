@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODSOFT</title>
     <style>
+
         *,
         *::before,
         *::after {
@@ -13,7 +14,7 @@
         box-sizing: border-box;
         }
         body {
-        
+        background-color: #dbd8d8;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -22,15 +23,16 @@
 
         div{
             padding: 10px;
-            border:  solid rgb(42, 41, 44);
             margin: 10px;
         }
         a{
             color:black;
             font-size: 3rem;
+            padding: 10px;
+            font-style:italic;
         }
-        #d1{
-            /* margin-top: 50px; */
+        a:hover{
+            color: rgb(0, 3, 156);
         }
         .cal_layout {
         position: relative;
@@ -42,32 +44,36 @@
         border-radius: 14px;
         -webkit-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
         -moz-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-        /* background-color: #fff; */
-        background-color: #dbd8d8;
+        background-color: #fff;
+        /* background-color: #dbd8d8; */
         z-index: 111;
         overflow: none;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        box-shadow: 40px 40px 60px rgb(39, 39, 42), -20px -20px 60px rgb(39, 39, 42);
+
         }
 
         .cal_layout:hover{
-        box-shadow: 20px 20px 20px black, -20px -20px 20px black;
+        box-shadow: 10px 10px 30px black, -10px -10px 30px black;
 
         }
     </style>
 </head>
 <body>
-   <div class="cal_layout">
+
+    <div class="cal_layout">
+      <b>
+          <h1 style="font-size: 3rem;">CODSOFT Internship</h1>
+      </b>
      <div id="d1">
          <a href="Calculator/index.html" target="_blank">Calculator</a>
      </div>
-     <div>
+     <div id="d2">
          <a href="Landing Page/index.html" target="_blank">Landing Page</a>
      </div>
-     <div>
+     <div id="d3">
          <a href="Portfolio/index.html" target="_blank">Portfolio</a>
      </div>
    </div>
