@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinesh Dhayfule</title>
-    <!-- css style -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <!-- css bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -17,91 +16,256 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
     </script>
-    <!-- google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Ubuntu&display=swap"
-        rel="stylesheet">
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/934e61a7e5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="first-div">
-        <div class="second-div">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                    <!-- <img src="images/PD_logo.png" class="logo-img" alt="logo" width="65px" height="65px"> -->
-                    <a href="#" class="logo">
-                        <h2 class="logo-name"><span>D</span>inesh Dhayfule</h2>
+        <div class="blue-bgd">
+            <div class="second-div">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <h2 class="logo-name"><span>D</span>inesh.</h2>
                     </a>
-                    <!-- <span><h2 class="logo-name"><span class="logo-style">P</span>rerana.</h2></span> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <i class="fas fa-bars" style="color:#000000; font-size:28px;"></i>
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto tab-element">
-                        <li class="nav-item ">
-                            <a class="nav-link tabs" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link tabs" href="#top">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link tabs" href="#projects">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link tabs" href="#">Contact Me</a>
-                        </li>
-                    </ul>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa fa-navicon"
+                                style="color:#000000; font-size:28px;"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto tab-element">
+                           <li class="nav-item ">
+                               <a class="nav-link tabs" href="#">Home</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link tabs" href="#about">About</a>
+                           </li>
+                            <li class="nav-item">
+                                <a class="nav-link tabs" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tabs" href="#project">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link tabs" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="section1" id="home">
+                    <div class="section1-right">
+                        <div class="absolute icon icon-dots">
+                            <img src="images/dots.png" alt="">
+                        </div>
+                        <div class="absolute icon icon-cube">
+                            <img src="images/cube.png" alt="">
+                        </div>
+                        <div class="absolute icon icon-circle">
+                            <img src="images/circle.png" alt="">
+                        </div>
+                        <div class="absolute icon icon-zigzags">
+                            <img src="images/zigzags.png" alt="">
+                        </div>
+                        <div class="absolute icon icon-plus">
+                            <img src="images/plus.png" alt="">
+                        </div>
+
+                        <div class="user-img">
+                            <img src="images/myPic.png" alt="user-img" width="352" height="352">
+                        </div>
+                    </div>
+
+                    <div class="section1-left">
+                        <p class="name">Hi! I'm Dinesh Dhayfule</p>
+                        <div class="me-role"><span class="name name-role">I'am a </span><span class="name role"> </span>
+                        </div>
+                        
+                    </div>
+
                 </div>
-            </nav>
-        </div>
-        <div class="top">
-            <div class="myPic">
-                <img src="img/myPic.png" alt="Dinesh Dhayfule" height="200" width="200">
             </div>
-           <p class="name">Hi! I'm Dinesh Dhayfule</p>
-           <p class="name name-role">I'am a <span class="name role"></span></p>
-            <p id="para">As a passionate and motivated software developer, I am eager to embark on a career in creating innovative
-                solutions. I bring a strong foundation in software development principles and a quick learner's mindset.
-                I am dedicated to writing clean, efficient code and enthusiastic about contributing to dynamic projects.
-                I am excited to collaborate with experienced teams and eager to grow in this ever-evolving field.</p>
         </div>
+         <div class="third-div">
+             <div class="about" id="about">
+                 <h2 class="about-head">
+                     Need a <span>Creative Product</span> ? I can Help You!
+                 </h2>
+
+                 <div class="about-context">
+                     <div class="about-img">
+                         <center>
+                             <img src="images/myPic.png" alt="" width="200px" height="200px">
+                         </center>
+                     </div>
+                     <div class="about-txt">
+                         <h2>About me</h2>
+                         <p id="APara">
+                             Hi! I'm Dinesh, I'm a Web Developer who has passion for building clean web applications
+                             with intuitive functionalities. I enjoy the process of turning ideas into reality using
+                             creative solutions. I'm always curious about learning new skills, tools, and concepts. In
+                             terms of my professional traits, I consider myself to be result-oriented, demonstrating
+                             effectiveness both as a collaborative team player and a competent individual contributor. I
+                             approach tasks with efficiency and always strive for excellence in my work.
+                         </p>
+                         <div>
+                             <center><button id="cvbtn">Download CV</button></center>
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+       <section class="skills" id="skills">
+           <div class="content-wrap">
+               <h2><span class="extra1">Technical</span> <span class="extra">Skills</span></h2>
+               <ul class="skill-icon">
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/java.png" alt="" width="100px" height="100px">
+                           <figcaption>Java</figcaption>
+                       </figure>
+                   </li>
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/python.png" alt="" width="100px" height="100px">
+                           <figcaption>Python</figcaption>
+                       </figure>
+                   </li>
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/HTML.png" alt="" width="100px" height="100px">
+                           <figcaption>HTML</figcaption>
+                       </figure>
+                   </li>
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/CSS.png" alt="" width="100px" height="100px">
+                           <figcaption>CSS</figcaption>
+                       </figure>
+                   </li>
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/JS.png" alt="" width="100px" height="100px">
+                           <figcaption>JavaScript</figcaption>
+                       </figure>
+                   </li>
+                   <br>
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/SQL.png" alt="" width="100px" height="100px">
+                           <figcaption>MySQL</figcaption>
+                       </figure>
+                   </li>
+                   <li>
+                       <figure>
+                           <img class="animation" src="images/Linux.png" alt="" width="100px" height="100px">
+                           <figcaption>LINUX</figcaption>
+                       </figure>
+                   </li>
+               </ul>
+           </div>
+
+       </section>
+        <div id="project" class="project">
+            <center>
+                <h2 class="Ph1">My Creative <span style="color: aqua;">Portfolio</span> Section</h2>
+            </center>
+            <div class="row">
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/vaccine.png" alt="vaccine" height="300" width="300">
+                    <h3 class="Ph">vaccine management</h3>
+                    <p class="Pc">So easy to use, even your cat could do it.</p>
+                </div>
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/weather .png" alt="weather" height="300" width="300">
+                    <h3 class="Ph">weather js app</h3>
+                    <p class="Pc">So easy to use, even your cat could do it.</p>
+                </div>
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/ic_icon.jpg" alt="vaccine" height="300" width="300">
+                    <h3 class="Ph">BlueChat app</h3>
+                    <p class="Pc">So easy to use, even your cat could do it.</p>
+                </div>
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/dice.png" alt="vaccine" height="300" width="300">
+                    <h3 class="Ph">Dice Roll game</h3>
+                    <p class="Pc">So easy to use, even your cat could do it.</p>
+                </div>
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/joke.png" alt="weather" height="300" width="300">
+                    <h3 class="Ph">Joke Loader</h3>
+                    <p class="Pc">So easy to use, even your cat could do it.</p>
+                </div>
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/drum.png" alt="vaccine" height="300" width="300">
+                    <h3 class="Ph">Drum Game</h3>
+                    <p class="Pc">So easy to use, even your cat could do it.</p>
+                </div>
+                <div class="feature-box ">
+                    <img class="Pimg" src="images/ic_wechat.png" alt="vaccine" height="300" width="300">
+                    <h3 class="Ph">wechat app</h3>
+                    <p class="Pc">A Chatting android application.</p>
+                </div>
+            </div>
+        </div>
+         <footer id="Contact" class="contact">
+             <h2>Contact <span class="extra">Me</span></h2>
+             <div class="footer-1">
+                 <div class="footer-box">
+                     <img src="images/mail.png" alt="" width="90px">
+                     <h3>Email</h3>
+                     <p>dineshdhayfule@gmail.com</p>
+                 </div>
+                 <div class="footer-box">
+                     <img src="images/github.png" alt="" width="90px">
+                     <h3>GitHub</h3>
+                     <a href="https://github.com/dineshdhayfule" target="_blank">dineshdhayfule </a>
+                 </div>
+                 <div class="footer-box">
+                     <img src="images/linkedin.png" alt="" width="80px">
+                     <h3>LinkedIn</h3>
+                     <a href="www.linkedin.com/in/dinesh-dhayfule" class="text-blue" target="_blank">dinesh-dhayfule</a>
+                 </div>
+             </div>
+
+
+             <div class="content-wrap">
+                 <div class="feedback">
+                     <h2>Send <span class="extra">Mail</span></h2>
+                     <form action="">
+
+                         <input type="text" id="name" name="name" placeholder="Name" required><br>
+
+                         <input type="email" id="email" name="email" placeholder="Your email" required><br>
+
+                         <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Message"
+                             required></textarea><br>
+
+                         <input type="submit" value="Submit">
+
+                     </form>
+                 </div>
+             </div>
+         </footer>
+
+         <div class="end">
+             <div class="end-1">
+                 <a href="https://github.com/dineshdhayfule"><i class="fa-brands fa-github fa-2xl"
+                         style="color: #ffffff;"></i></a>
+             </div>
+             <div class="end-1">
+                 <a href="www.linkedin.com/in/dinesh-dhayfule"><i class="fa-brands fa-linkedin fa-2xl"
+                         style="color: #ffffff;"></i></a>
+             </div>
+             <div class="end-1">
+                 <a href="mailto:dineshdhayfule@gmail.com"><i class="fa-solid fa-envelope fa-2xl"
+                         style="color: #ffffff;"></i></a>
+             </div>
+         </div>
     </div>
-    <section id="projects">
-        <div>
-            <h1>Featured Projects</h1>
-        </div>
-    </section>
-    <section id="features">
-        <div class="row">
-            <div class="feature-box col-lg-4">
-                <i class="icon fa-solid fa-circle-check fa-4x"></i>
-
-                <h3>Easy to use.</h3>
-                <p>So easy to use, even your cat could do it.</p>
-            </div>
-            <div class="feature-box col-lg-4">
-                <i class="icon fa-solid fa-bullseye fa-4x"></i>
-                <h3>Elite Clientele</h3>
-                <p>We have all the cats, the greatest cats.</p>
-            </div>
-            <div class="feature-box col-lg-4">
-                <i class="icon fa-solid fa-heart fa-4x"></i>
-                <h3>Guaranteed to work.</h3>
-                <p>Find the love of your cat's life or your money back.</p>
-            </div>
-        </div>
-
-    </section>
     <script src="script.js"></script>
 
 </body>
-
 </html>
