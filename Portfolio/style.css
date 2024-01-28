@@ -27,9 +27,6 @@
     color: black;
 }
 
-/* .logo-img {
-        border-radius: 4% 30%;
-    } */
 
 .logo {
     font-size: 1.75em;
@@ -115,13 +112,6 @@
         left: 0%;
     }
 }
-
-/* 
-.APara {
-    text-align: justify;
-    font-size: 25px;
-    color: #343d68;
-} */
 
 .section1-right {
     position: relative;
@@ -237,7 +227,7 @@
 
 
 .third-div {
-    background-color: #60b478;
+    background-color: #ffffff;
     margin: 0 auto;
     flex-direction: column;
     flex: 1 1 0%;
@@ -263,7 +253,7 @@
 }
 
 .about-head span {
-    color: white;
+    color: #099ce0;
 }
 
 .about-context {
@@ -284,24 +274,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* justify-content: flex-start !important; */
-    /* align-items:flex-start !important; */
+   
 }
 
 .about-txt h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 800;
     text-align: center;
     margin: 10px;
 }
 
 .about-txt p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     text-align: justify;
     margin-top: 20px;
-    color: white;
-    font-weight: 00;
+    color: #090518;
+    font-weight: 600;
 }
 
 #cvbtn {
@@ -310,13 +299,18 @@
     font-weight: 500;
     padding: 1rem 2rem;
     border-radius: 10px;
-    /* border: 3px solid black; */
+}
+
+#cvbtn:hover {
+    background-color: #099ce0;
+    color: white;
+
 }
 
 /*skills*/
 .skills {
-    background-color: #000203;
-    color: #F7FFF7;
+    background-color: #ffffff;
+    color: #000000;
     margin: 0 auto;
     padding: 1.5rem;
     justify-content: center;
@@ -331,26 +325,30 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .skill-icon img {
     overflow: hidden;
     transition: all ease 1s;
+    padding: 1.5rem;
+    scale: 1.3;
+
 }
 
 .skill-icon:hover img {
-    scale: 1.2;
+    scale: 1.5;
 }
 
 
-
+/*project lists*/
 .project {
-    background-color: #090518;
+    background-color: ghostwhite;
     height: fit-content;
     margin: 0 auto;
     padding: 4rem 2rem;
-    color: white;
+    /* color: white; */
 }
 
 .row {
@@ -364,31 +362,59 @@
 }
 
 .feature-box {
+    position: relative;
     width: 300px;
-    height: 450px;
-    border-radius: 15px;
-    background-color: #302e35;
-    z-index: 111;
-    overflow: none;
-    display: flex;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
-    border: 1px solid rgb(0, 0, 0);
+    justify-content: center;
+    box-shadow: 1rem 1rem 1rem -0.9rem rgba(0, 0, 0, 0.23);
+
 }
 
 .feature-box:hover {
-    box-shadow: 10px 10px 30px rgb(41, 29, 83), -10px -10px 30px rgb(41, 29, 83);
-    animation: scale 4s linear infinite;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0), -10px -10px 30px rgb(0, 0, 0);
+}
 
+.bg {
+    top: 5px;
+    left: 5px;
+    width: fit-content;
+    z-index: 2;
+    backdrop-filter: blur(54px);
+    border-radius: 15px;
+    text-align: center;
 }
 
 .Pimg {
+    width: 100%;
+    height: 250px;
     border-radius: 15px;
+    border: 1px solid black;
 }
 
-.Pimg:hover {
-    /* animation: scale 4s linear infinite; */
+.Ph3 {
+    color: #111315;
+    padding: 5px;
+    font-weight: 900;
+
+
 }
+
+.Ph2 {
+    font-size: 2.75rem;
+    font-weight: 800;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+
+.Pc {
+    padding-left: 5px;
+}
+
 
 @keyframes scale {
     0% {
@@ -405,55 +431,40 @@
     }
 }
 
-.Ph {
-    color: aqua;
-    padding: 5px;
-
-}
-
-.Ph1 {
-    font-size: 2.75rem;
-    font-weight: 800;
-    padding: 10px;
-    text-transform: capitalize;
-}
-
-
-.Pc {
-    padding-left: 5px;
-}
-
-/* footer */
 
 /*footer*/
 footer {
-    background: #2d2c2c;
-    color: #f7fff7;
+    background-color: #8ebbff;
+    color: #000000;
     text-align: center;
     padding: 60px 0;
 
 }
 
 .footer-1 a {
-    color: #099ce0;
+    color: #ffffff;
 }
 
 .footer-box {
+    background-color: #000000;
+    color: #ffffff;
+
     display: inline-block;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     width: 300px;
     height: 250px;
     padding: 25px;
     margin: 20px;
-    box-shadow: 0 4px 8px rgb(250, 249, 249);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .feedback {
+    background-color: white;
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(250, 249, 249);
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 textarea {
@@ -464,23 +475,23 @@ textarea {
 
 input,
 textarea {
-    color: #ffffff;
+    color: #000000;
     width: 100%;
     padding: 15px;
     border: 1px solid rgb(34, 33, 33);
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #6b6f6f88;
     margin-top: 5%;
     font-size: medium;
 }
 
 input[type="submit"] {
-    background-color: #080808;
-    color: white;
+    background-color: transparent;
+    color: black;
     padding: 15px;
     border: none;
     border-radius: 10px;
+    border: 2px solid black;
     cursor: pointer;
     font-size: 16px;
     width: 150px;
@@ -492,7 +503,7 @@ input[type="submit"]:hover {
 }
 
 ::placeholder {
-    color: rgb(250, 250, 251);
+    color: rgb(0, 0, 0);
     opacity: 1;
     /* Firefox */
 }
@@ -503,7 +514,6 @@ input[type="submit"]:hover {
 
 
 .end {
-    background-color: #000203;
     padding: 50px;
     display: flex;
     justify-content: right;
@@ -511,12 +521,13 @@ input[type="submit"]:hover {
 
 .end-1 {
 
-    flex: 0 1 100px;
+    /* flex: 0 1 100px; */
+    
+
 }
 
 
 
-/*extra-classes/id's*/
 
 .extra {
     color: #099ce0;
@@ -526,9 +537,7 @@ input[type="submit"]:hover {
     text-align: center;
 }
 
-.extra1 {
-    color: #F7FFF7;
-}
+
 
 @media (max-width:1300px) {
     .tab-element li {
@@ -560,19 +569,26 @@ input[type="submit"]:hover {
     .row {
         justify-content: center;
         align-items: center;
+        flex-direction: row;
     }
 
     .feature-box {
-        height: 375px;
-        width: 280px;
+        width: 300px;
+        height: 380px;
+        padding: auto;
+        /* margin: 8%; */
+        flex-direction: row;
+
     }
 
     .Pimg {
         width: 280px;
     }
 
-    .Ph {
+    .Ph3 {
         padding: 5px;
+        font-weight: 500;
+
     }
 
     .Pc {

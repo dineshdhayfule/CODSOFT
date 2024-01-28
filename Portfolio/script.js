@@ -15,10 +15,25 @@ textLoad();
 setInterval(textLoad,12000);
 
 
-function over() {
-    document.getElementById("bt").textContent = "About me ⬇";
+function over(n) {
+    if (n==1) {
+        const img = document.getElementById("weather");
+        img.src = "images/w.gif"
+    }
+    else if (n==2) {
+          const img1 = document.getElementById("convert");
+          img1.src = "images/convert.gif"
+    }
+
 }
 
-function out() {
-    document.getElementById("bt").textContent = "About me ➡";
+function out(n) {
+ if (n == 1) {
+     const img = document.getElementById("weather");
+     img.src = "images/w.jpg"
+ } else if (n == 2) {
+     const img1 = document.getElementById("convert");
+     img1.src = "images/convert.jpg"
+ }
 }
+ 
